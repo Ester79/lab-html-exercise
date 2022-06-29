@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.second-nav {
+    height: 60px;
+}
+
+.second-nav button {
+    background-color: red;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    font-size: 25px;
+    justify-content: flex-start;
+}
+
+.second-nav a {
+    font-size: 25px;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.glass {
+    padding-left: 35px;
+    width: 900px;
+    height: 40px;
+    background: url(/images/magnifying-glass.png) no-repeat left;
+    background-size: 40px;
+    font-size: 20px;
+}
+
+.section1 {
+    height: 600px;
+    background-color: rgba(232, 217, 217, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.section1 article {
+    font-size: 20px;
+}
+
+.section2 article {
+    font-size: 20px;
+}
+
+
+.section1 button {
+    background-color: red;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.section2 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+}
+
+.section2 h1 {
+    background-color: rgba(255, 204, 53, .4);
+}
+
+.section2 img {
+    width: 200px;
+}
+
+.section3 {
+    display: flex;
+}
+
+.section3 div {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 header {
+    color: #ED1C24;
+}
+
+.subsection3 {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-inline: 90px;
+}
+
+.section3-button {
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 900px;
+
+}
+
+.section3 img {
+    width: 50px;
+}
